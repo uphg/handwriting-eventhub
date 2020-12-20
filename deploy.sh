@@ -1,2 +1,2 @@
-git push -u github master
-git push -u gitee master
+git push github master
+git push gitee master

@@ -21,6 +21,12 @@ npm install -g ts-node
 运行
 
 ````sh
-ts-node index.ts
+ts-node test/index.ts
 ````
+
+## 笔记
+
+- private：表示该属性只在 class 内部访问（私有的）
+- 
+
 
