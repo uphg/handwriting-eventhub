@@ -8,20 +8,19 @@ which xxx
 
 ### TypeScript
 
-- 安装
+安装
 
-  ```sh
-  yarn global add typescript
-  yarn global add ts-node
-  # Or
-  npm install -g typescript
-  npm install -g ts-node
-  ```
+```sh
+yarn global add typescript
+yarn global add ts-node
+# Or
+npm install -g typescript
+npm install -g ts-node
+```
 
-- 运行
+运行
 
-  ````sh
-  ts-node index.ts
-  ````
+````sh
+ts-node index.ts
+````
 
-  
