@@ -1,14 +1,12 @@
-import EventHub from '../src/index'
+import EventHub from './index.js'
 
-type TestCase = (message: string) => void
-
-const test1: TestCase = message => {
+const test1 = message => {
   const eventHub = new EventHub()
   console.assert(eventHub instanceof Object === true, 'eventHub 不可以创建对象')
   console.log(message)
 }
 
-const test2: TestCase = message => {
+const test2 = message => {
   const eventHub = new EventHub()
   let called = false
   eventHub.on('demo', (data) => {
@@ -20,7 +18,7 @@ const test2: TestCase = message => {
   console.log(message)
 }
 
-const test3: TestCase = message => {
+const test3 = message => {
   const eventHub = new EventHub()
   let called = false
   let fn = () => {
